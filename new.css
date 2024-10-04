@@ -1,0 +1,84 @@
+body{
+    background-color: #00132d;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}
+h2{
+    font-family: cursive;
+    background-color: brown;
+    color: #ffff;
+    text-align: center;
+}
+.container{
+    background-color:aliceblue;
+    height: 75vh;
+    width: 60vh;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.from-container{
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+}
+.select{
+    display: flex;
+    align-items: center;
+}
+.to-container{
+    display: flex;
+    text-align: center;
+    border: #000000 solid 1px;
+}
+form input{
+    width: -webkit-fill-available;
+    background-color: lightgoldenrodyellow;
+    max-height:100%;
+    border: 0;
+    text-align: center;
+    color:#000000;
+    font-style: italic;
+}
+button{
+    height: 2rem;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    border: 2px solid black;
+    background-color: #89fc00;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.result{
+    padding-top: 0.5rem;
+    background-color: lightgoldenrodyellow;
+    width: -webkit-fill-available;
+    font-style: italic;
+    color: #000000;
+    font-size: x-large;
+}
+.amount{
+font-size: 1rem;
+margin-bottom: 0%;
+text-align:start;
+margin-top: 3rem;
+}
+.to{
+    font-size: 1rem;
+    margin-bottom: 0%;
+}
+p{
+    color: #4f0147;
+    font-size: 1rem;
+}
+.print-result{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    background-color: #af4d98;
+    color: #ffff;
+}
